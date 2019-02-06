@@ -21,8 +21,8 @@ module FormsLab
         Ship.new(data)
       end
 
-      @courses = Course.all
-binding.pry 
+      @ships = Ship.all
+binding.pry
 
       erb :"pirates/show"
     end

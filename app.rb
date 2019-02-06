@@ -22,7 +22,7 @@ module FormsLab
       end
 
       @courses = Course.all
-
+binding.pry 
 
       erb :"pirates/show"
     end
